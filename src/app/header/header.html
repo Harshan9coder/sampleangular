@@ -1,0 +1,21 @@
+<header class="site-header">
+  <nav class="navbar">
+    <a routerLink="/" class="brand">
+      <span class="brand-mark">◆</span>
+      <span class="brand-name">Harshan</span>
+    </a>
+
+    <ul class="nav-links">
+      <li>
+        <a
+          routerLink="/"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a>
+      </li>
+      <li>
+        <a routerLink="/about" routerLinkActive="active">About</a>
+      </li>
+    </ul>
+  </nav>
+</header>
